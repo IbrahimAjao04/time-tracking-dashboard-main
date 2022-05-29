@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="index.css" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+      <div class="all-content">
+          <div class="report-daily">
+              <div class="report">
+                  <img src="/images/image-jeremy.png" alt="Jeremy">
+                  <span>
+                      <p>Report for</p>
+                      <h2>Jeremy Robson</h2>
+                  </span>
+              </div>
+              <div class="daily">
+                  <h5 id="days">Daily</h5>
+                  <h5 id="weekly" >Weekly</h5>
+                  <h5 id="monthly">Monthly</h5>
+              </div>
+          </div>
+          <div class="three-box">
+              <div class="three-div">
+                  <div class="work-div align-img">
+                      <img  src="/images/icon-work.svg" alt="Work_icon">
+                  </div>
+                  <div id="works" class="work">
+                     <span> <h5>Work</h5> <p>...</p></span>
+                         <div class="hrs">
+                             <h1>32hrs</h1>
+                             <small>Last Week -36hrs</small>
+                         </div>
+                  </div>
+              </div>
+              <div class="three-div">
+                  <div class=" play-div align-img">
+                      <img src="/images/icon-play.svg" alt="Play_icon">
+                  </div>
+                  <div class="play">
+                      <span><h5>Play</h5><p>...</p></span>
+                      <div class="hrs">
+                          <h1>10hrs</h1>
+                          <small>Last Week -8hrs</small>
+                      </div>
+                  </div>
+              </div>
+              <div class="three-div">
+                  <div class="study-div align-img">
+                      <img src="/images/icon-study.svg" alt="">
+                  </div>
+                  <div class="study">
+                      <span><h5>Study</h5><p>...</p></span>
+                      <div class="hrs">
+                          <h1>4hrs</h1>
+                          <small>Last Week -7hrs</small>
+                      </div>
+                  </div>
+              </div>
+              <div class="three-div">
+                    <div class="exercise-div align-img">
+                        <img src="/images/icon-exercise.svg" alt="exercise">
+                    </div>
+                      <div class="exercise">
+                          <span><h5>Exercise</h5><p>...</p></span>
+                          <div class="hrs">
+                              <h1>4hrs</h1>
+                              <small>Last Week - 5hrs</small>
+                          </div>
+                      </div>
+              </div>
+              <div class="three-div">
+                  <div class="social-div align-img">
+                      <img src="/images/icon-social.svg" alt="Social">
+                  </div>
+                  <div class="social">
+                      <span><h5>Social</h5><p>...</p></span>
+                      <div class="hrs">
+                          <h1>5hrs</h1>
+                          <small>Last Week - 10hrs</small>
+                      </div>
+                  </div>
+              </div>
+              <div class="three-div">
+                  <div class="self-care-div align-img">
+                      <img src="/images/icon-self-care.svg" alt="Self_care">
+                  </div>
+                  <div class="self-care">
+                      <span><h5>Self Care</h5><p>...</p></span>
+                      <div class="hrs">
+                      <h1>2hrs</h1>
+                          <small>Last Week - 2hrs</small>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+<div class="container"></div>
+<p id="demo" class="de-mo">[]</p>
+<button id="btn" class="button" style="margin-top: 50px">Click Me!</button>
+<script src="index.js"></script>
+
+
+
+                        <!--  Report for-->
+<!--  Jeremy Robson-->
+
+<!--  Daily-->
+<!--  Weekly-->
+<!--  Monthly-->
+
+<!--  Work-->
+<!--  5hrs &lt;!&ndash; daily &ndash;&gt;-->
+<!--  Previous - 7hrs &lt;!&ndash; daily &ndash;&gt;-->
+<!--  32hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  Previous - 36hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  103hrs &lt;!&ndash; monthly &ndash;&gt;-->
+<!--  Previous - 128hrs &lt;!&ndash; monthly &ndash;&gt;-->
+
+<!--  Play-->
+<!--  1hr &lt;!&ndash; daily &ndash;&gt;-->
+<!--  Previous - 2hrs &lt;!&ndash; daily &ndash;&gt;-->
+<!--  10hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  Previous - 8hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  23hrs &lt;!&ndash; monthly &ndash;&gt;-->
+<!--  Previous - 29hrs &lt;!&ndash; monthly &ndash;&gt;-->
+
+<!--  Study-->
+<!--  0hrs &lt;!&ndash; daily &ndash;&gt;-->
+<!--  Previous - 1hr &lt;!&ndash; daily &ndash;&gt;-->
+<!--  4hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  Previous - 7hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  13hrs &lt;!&ndash; monthly &ndash;&gt;-->
+<!--  Previous - 19hrs &lt;!&ndash; monthly &ndash;&gt;-->
+
+<!--  Exercise-->
+<!--  1hr &lt;!&ndash; daily &ndash;&gt;-->
+<!--  Previous - 1hr &lt;!&ndash; daily &ndash;&gt;-->
+<!--  4hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  Previous - 5hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  11hrs &lt;!&ndash; monthly &ndash;&gt;-->
+<!--  Previous - 18hrs &lt;!&ndash; monthly &ndash;&gt;-->
+
+<!--  Social-->
+<!--  1hr &lt;!&ndash; daily &ndash;&gt;-->
+<!--  Previous - 3hrs &lt;!&ndash; daily &ndash;&gt;-->
+<!--  5hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  Previous - 10hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  21hrs &lt;!&ndash; monthly &ndash;&gt;-->
+<!--  Previous - 23hrs &lt;!&ndash; monthly &ndash;&gt;-->
+
+<!--  Self Care-->
+<!--  0hrs &lt;!&ndash; daily &ndash;&gt;-->
+<!--  Previous - 1hr &lt;!&ndash; daily &ndash;&gt;-->
+<!--  2hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  Previous - 2hrs &lt;!&ndash; weekly &ndash;&gt;-->
+<!--  7hrs &lt;!&ndash; monthly &ndash;&gt;-->
+<!--  Previous - 11hrs &lt;!&ndash; monthly &ndash;&gt;-->
+
+<!--  -->
+<!--  <div class="attribution">-->
+<!--    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. -->
+<!--    Coded by <a href="#">Your Name Here</a>.-->
+<!--  </div>-->
+</body>
+</html>
